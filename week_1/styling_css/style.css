@@ -1,0 +1,46 @@
+body {
+     margin-left: 2em ;
+     margin-right: 2em;
+}
+
+
+#header {
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    font-family: cursive ;
+    padding-left: .5em;
+    padding-bottom: .2em;
+    font-size: 75px;
+    margin-top: auto;
+}
+
+#header span {
+    color: cyan;
+}
+
+h2 {
+    background-color: purple;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-family: cursive;
+    padding-top: 0em;
+    padding-bottom: 0.1em;
+    font-size: 50px;
+    margin-top: -.7em;
+}
+
+h3 {
+    color: black;
+    background-color: lightskyblue;
+    text-decoration: underline;
+    font-weight: 250;
+    text-align: right;
+    font-family: cursive;
+    padding-right: 1em;
+    padding-top: .15em;
+    padding-bottom: .3em;
+    font-size: 2em;
+    margin-top: -.5em;
+}
