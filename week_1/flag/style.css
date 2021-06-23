@@ -1,0 +1,31 @@
+.white {
+    background-color: white;
+    
+
+}
+
+.red {
+    display: inline-block;
+    background-color: red;
+    height: 50px;
+    width: 1500px;
+    margin-top: 2em;
+    
+}
+
+.stars {
+    display: inline-block;
+    background-color: blue;
+    height: 400px;
+    width: 600px;
+}
+
+.stripe {
+    display: inline-block;
+    background-color: red;
+    height: 50px;
+    width: 850px;
+    margin-top: 2em;
+    margin-left: 40em;
+    
+}

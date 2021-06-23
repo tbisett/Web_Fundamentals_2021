@@ -1,18 +1,19 @@
 .container{
     width: 1850px;
-    height: 1600px;
+    height: 1056px;
     background-color: silver;
     margin: 0px auto;
     margin-bottom: 1em;
     margin-left: 1em;
     margin-right: 1em;
     padding-right: .5em;
+    padding-top: 2em;
 }
 .top-nav {
-    height: 150px;
+    height: 201px;
     background-color: green;
-    margin-top: 1em;
-    margin-left: 1em;
+    margin-top: -1em;
+    margin-left: 2em;
     margin-right: 1em;
     margin-bottom: -3.5em;
     padding-top: 1em;
@@ -20,35 +21,38 @@
 }
 .side-nav {
     display: inline-block;
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: 325px;
     background-color: blue;
-    margin-right: .5em;
+    margin-right: 15em;
+    margin-left: 2em;
+    margin-top: 6em;
 }
 .main {
     display: inline-block;
-    height: 1350px;
-    width: 1400px;
+    height: 750px;
+    width: 1356px;
     background-color: red;
     margin-bottom: 2.5em;
-    margin-left: 14.5em;
-    margin-top: 8em;
+    margin-left: -7.5em;
+    margin-top: 7em;
+    padding-left: 0.7em;
     
     
 }
 .sub-content {
     display: inline-block;
-    height: 500px;
-    width: 400px;
+    height: 388px;
+    width: 373px;
     background-color: yellow;
     margin-top: 6em;
     margin-left: 1.5em;
 }
 #advertisement {
-    height: 290px;
-    width: 1250px;
+    height: 200px;
+    width: 1177px;
     background-color: purple;
-    margin-left: 2em;
-    margin-top: 15em;
+    margin-left: 1.5em;
+    margin-top: 1em;
 }
 
