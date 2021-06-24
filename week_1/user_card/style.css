@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+.usercard {
+    height: 500px;
+    width: 1000px;
+    border: solid;
+    position: absolute;
+    top: 0px;
+    font-family: 'Roboto Condensed';
+}
+
+.header {
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.info {
+    position: absolute;
+    top: 10px;
+    padding: 2.5em;
+    padding-left: -1em;
+    margin-left: 1em;
+    
+}
+
+.pic {
+    object-fit: 100px;
+    padding: .5em;
+}
+
+.pin {
+    object-fit: 1em;
+    padding-left: 5em;
+    margin-right: 2em;
+}
+
+.sea {
+    font-family: 'Roboto Condensed';
+}
+
+span {
+    vertical-align: top;
+}
+
+.cog {
+    padding-right: 1em;
+}
+
+h3 {
+    padding-top: 1em;
+}
+
+title {
+    margin: 2em;
+}
+
+a {
+    font-family: 'Roboto Condensed';
+    color: black;
+}
