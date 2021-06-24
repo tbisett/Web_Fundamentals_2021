@@ -45,17 +45,41 @@ span {
 
 .cog {
     padding-right: 1em;
+    margin-left: 0.5em;
 }
 
 h3 {
     padding-top: 1em;
 }
 
-title {
-    margin: 2em;
+.title {
+    margin-left: 5em;
+    margin-top: -1em;
 }
 
 a {
     font-family: 'Roboto Condensed';
-    color: black;
+    color: blue;
+    margin-left: 1em;
+}
+
+.sentence {
+    padding-top: -1em;
+}
+
+.name {
+    margin-top: 2em;
+    margin-left: 2.5em;
+}
+
+.seattle {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    padding-left: 4.5em;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
 }
