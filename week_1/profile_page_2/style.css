@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto Condensed';
+    border-color: lightgray;
+    /* margin: 0;
+    padding: 0; */
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #383E42;
+    position: fixed;
+    top: 0%;
+    min-width: 100%;
+    
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    color: white;
+    margin-left: 9em;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-family: Roboto;
+    margin-right: 40em;
+    color: white;
+    
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: white
+}
+
+
+li {
+    padding-right: 7em;
+    font-family: Roboto;
+    list-style-type: none;
+    
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    box-shadow: 3px 3px 5px 3px black;
+    font-size: 1em;
+    
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* start of user card */
+
+.container {
+    width: 1300px;
+    height: max-content;
+    left: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 60px;
+    padding-top: 2em;
+    margin-left: 25em;
+}
+
+.usercard {
+    height: 500px;
+    width: 600px;;
+    border: solid;
+    /* display: flex; */
+    justify-content: space-between;
+
+    
+}
+
+.name {
+    margin-top: 3em;
+    margin-left: 1.8em;
+}
+
+.body > div {
+    display: flex;
+    margin-left: 3.3em;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.seattle {
+    padding-left: 1.5em;
+}
+
+.edit-p {
+    padding-left: 1.5em;
+}
+
+
+.sent {
+    margin-left: 2.5em;
+    padding-bottom: 1em;
+}
+
+.user-circle2 {
+    height: 25px;
+}
+
+.pin, .cog {
+    height: 35px;
+}
+
+.pic { 
+    margin-top: 0em;
+    margin: 2em;
+    margin-left: 3em;
+}
+
+.header {
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+
+/* Start of Education Block */
+
+.education {
+    /* display: flex; */
+    height: 250px;
+    width: 600px;
+    border: solid;
+    justify-self: space-between;
+}
+
+.top-edu {
+    height: 75px;
+    width: 600px;
+    background-color: #24282a;
+    display: flex;
+    top: 0px;
+    font-size: 20px;
+    
+}
+
+.top-edu h3 {
+    margin-left: 1em;
+}
+
+.edu-body {
+    margin-left: 1em;
+}
+
+.grey-out {
+    font-weight: 200;
+    color: grey;
+}
+
+/* Start of connection requests */
+
+.request {
+    height: 277px;
+    width: 300px;
+    border: solid;
+    margin-right: 19em;
+}
+
+.top-req {
+    height: 75px;
+    background-color: #24282a;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.num2 {
+    font-size: 25px;
+    margin: 0px;
+    border: solid;
+    border-radius: 50%; 
+    width: 10%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+
+.main-req {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    margin-right: 1em;
+    padding-top: 1em;
+    margin-left: 1em;
+}
+
+.main-req img {
+    height: 50px;
+}
+
+.friend-req {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+/* Start of your connections */
+
+.connections {
+    border: solid;
+    border-color: lightgray;
+    height: 500px;
+    width: 300px;
+    margin-top: -15em;
+    margin-right: 19em;
+}
+
+.top-con {
+    height: 75px;
+    width: 300px;
+    background-color: #24282a;
+    display: flex;
+    top: 0px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.num-connections {
+    border: solid;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-left: 1em;
+    margin-right: 3em;
+}
+
+.body-con img {
+    height: 50px;
+    
+}
+
+.body-con h3 {
+    font-size: 25px;
+}
+
+.body-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.footer-con {
+    height: 42px;
+    width: 297px;
+    background-color: white;
+    margin-top: 42px;
+    border: solid;
+    border-color: lightgray;
+    border-width: 3px;
+    border-right: 1;
+    display: flex;
+    align-items: center;
+}
+
+.footer-con a {
+    margin-left: 1em;
+    color: blue;
+    font-weight: bold;
+}
+
+.head-text {
+    color: white;
+}
+

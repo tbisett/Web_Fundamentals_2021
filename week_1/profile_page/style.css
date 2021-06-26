@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto Condensed';
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #383E42;
+    position: fixed;
+    top: 0%;
+    min-width: 100%;
+    
+    
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    color: white;
+    margin-left: 9em;
+    
+    
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-family: Roboto;
+    margin-right: 40em;
+    
+    
+    
+    
+}
+
+li {
+    padding-right: 7em;
+    font-family: Roboto;
+    list-style-type: none;
+    
+    
+    
+}
+
+
+
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    box-shadow: 3px 3px 5px 3px black;
+    font-size: 1em;
+    
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    width: 1100px;
+    height: 1250px;
+    border: solid;
+    margin: 7em;
+    margin-left: 16em;
+    padding-right: 14em;
+    display: flex;
+    font-family: 'Roboto Condesed';
+    
+}
+
+.usercard {
+    height: 500px;
+    width: 720px;
+    border: solid;
+    position: relative;
+    top: -8em;
+    font-family: 'Roboto Condensed';
+    margin-top: 8em;
+    font-size: small;
+    
+}
+
+.header {
+    height: 150px;
+    background-color: aquamarine;
+    
+}
+
+.info {
+    position: absolute;
+    top: 10px;
+    padding: 2.5em;
+    padding-left: -1em;
+    margin-left: 1em;
+    
+}
+
+.pic {
+    object-fit: 100px;
+    padding: .5em;
+}
+
+.pin {
+    object-fit: 1em;
+    padding-left: 5em;
+    margin-right: 2em;
+}
+
+.sea {
+    font-family: 'Roboto Condensed';
+}
+
+span {
+    vertical-align: top;
+}
+
+.cog {
+    padding-right: 1em;
+    margin-left: 0.5em;
+}
+
+h3 {
+    padding-top: 1em;
+}
+
+.title {
+    margin-left: 5em;
+    margin-top: -1em;
+}
+
+a {
+    font-family: 'Roboto Condensed';
+    color:seashell;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+.edit-p {
+    color: blue;
+}
+
+.sentence {
+    padding-top: -1em;
+}
+
+.name {
+    margin-top: 2em;
+    margin-left: 2.5em;
+}
+
+.seattle {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    padding-left: 4.5em;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.request {
+    height: 300px;
+    width: 550px;
+    background-color: white;
+    margin-left: 2em;
+    margin-right: -11em;
+    border: solid;
+}
+
+.request > div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+    height: 33px;
+    align-items: center;
+
+}
+
+.two {
+    border: solid;
+    border-radius: 75%;
+    height: 34px;
+    width: 36px;
+    background-color: gray;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1.5em;
+    padding-top: 0em
+    
+}
+
+.accept > img {
+    height: 50px;
+}
+
+.accept2 > img {
+    height: 50px;
+}
+
+.accept {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-size: 25px;
+    width: inherit;
+    margin-bottom: -4em;
+    height: 70px;
+    text-align: center;
+    /* padding-top: -1em; */
+    margin-left: 1em;
+    margin-bottom: -6em;
+
+}
+
+.accept2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-size: 25px;
+    width: inherit;
+    margin-bottom: -4em;
+    height: 70px;
+    text-align: center;
+    margin-top: 10em;
+    margin-left: -16em;
+}
+
+.con {
+    margin-top: 2.5em;
+}
+
+.education {
+    border: solid;
+    height: 400px ;
+    width: 684px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed';
+    margin-top: -31em;
+    margin-left: 10.3em;
+    display: flex;
+    
+}
+
+.top {
+    height: 75px;
+    width: 684px;
+    background-color: dodgerblue;
+    text-align: left;
+    font-family: "Roboto Condensed";
+}
+
+.top > div {
+    padding: 1em;
+    padding-bottom: 2em;
+    font-family: "Roboto Condensed";
+    
+}
+
+.yourcon {
+    width: 550px;
+    height: 600px;
+    border: solid;
+    display: flex; 
+    padding-right: 0em;
+    margin-right: -70em;
+    margin-left: 1.5em;
+    margin-top: -5em;
+}
+
+.banner {
+    height: 75px;
+    width: 550px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.faded {
+    font-weight: normal;
+    color: lightgray;
+}
+
+.num {
+    border: solid;
+    border-radius: 75%;
+    height: 35px;
+    width: 60px;
+    background-color:gray;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.circ1 {
+    padding-right: 1em;
+}
+
+.circ2 {
+    padding-right: 2em;
+    /* margin-left: -7em; */
+    padding-left: 0em;
+    margin-left: -27px;
+}
+
+.name1 {
+    padding-right: 4em;
+    padding-left: 13px;
+}
+
+.name2 {
+    padding-right: 4em;
+    margin-left: -1em;
+}
+
+.acceptimg {
+    padding-left: 0.5em;
+}
+
+.denyimg {
+    padding-right: 16px;
+}
+
+.maincon > div > img {
+    height: 55px;
+}
+
+.maincon > div > h3 {
+    font-size: 20px;
+}
+
+.maincon > div {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.viewmore {
+    background-color: white;
+    height: 67px;
+    width: inherit;
+    margin-left: -20em;
+    text-align: center;
+    border: solid;
+    margin-left: -18em;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
