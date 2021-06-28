@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav-bar">
+            <h1>Dojonary</h1>
+            <input class="search" type="text" name="search" value="Search">
+            <button class="login" onclick="logSwitch(this)">Login</button>
+        </div>
+        <div class="top-container">
+            <div class="left-box">
+                <div class="word">
+                    <h1>Ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <div class="plural">
+                        <div>
+                            <h3>Plural:</h3>
+                        </div>
+                        <div class="italic">
+                            <h3>ninjas</h3> 
+                        </div>
+                    </div>
+                    <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="definition">
+                    <h3>A practitioner skilled in the</h3>
+                    <h3><a href="">Japanese</a> art of <a href="">Ninjitsu</a></h3>
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="sentence">
+                    <div>
+                        <h3>Dojonary is</h3>
+                        <h3>defined by</h3>
+                        <button class="add-def" onclick="hideText(this)">Add Definition</button>
+                    </div>
+                    <div>
+                        <h2>You</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="lower-box">
+                <div class="word">
+                    <h1>Ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <div class="plural">
+                        <div>
+                            <h3>Plural:</h3>
+                        </div>
+                        <div class="italic">
+                            <h3>ninjas</h3>
+                        </div>
+                    </div>
+                    <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="definition">
+                    <h3>A <a href="">programmer</a> who breaks </h3>
+                    <h3>down problems with <a href="">zen</a>-like</h3>
+                    <h3>focus</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+                    
+
+
+
+    <script src="script.js"></script>   
+</body>
+</html>
