@@ -1,7 +1,7 @@
 function hideText(element) {
-    element.innerText = "";
+    element.remove();
 }
 
 function logSwitch(element) {
-    element.innerText = "Logout"
+    element.innerText = "Logout";
 }

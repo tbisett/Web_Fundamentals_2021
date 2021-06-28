@@ -112,14 +112,14 @@ button {
 
 .add-def {
     height: 35px;
-    width: 175px;
+    width: 283px;
     background-color: lightgreen;
     color: black;
     box-shadow: 5px 5px 5px 0px black;
     font-weight: bold;
     border: solid black;
     margin-top: 5em;
-    margin-left: 2em;
+    margin-left: -1em;
 }
 
 .italic {
@@ -128,7 +128,7 @@ button {
 
 .word {
     margin-left: -8em;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .word > h1 {
@@ -137,12 +137,13 @@ button {
 }
 
 .definition {
-    margin-left: -14em;
-    font-size: 18px;
+    margin-left: -13em;
+    font-size: 25px;
+    margin-right: -4em;
 }
 
 .sentence > div > h2 {
-    margin-left: -1.1em;
+    margin-left: -3.0em;
     margin-top: -1.3em;
 }
 
@@ -158,3 +159,7 @@ button {
     padding-bottom:  .5em;
 }
 
+.likes {
+    position: relative;
+    top: 2em;
+}
